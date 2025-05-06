@@ -1,0 +1,11 @@
+class Document:
+def __init__(self, paper_size, validity, kind, creator):
+        self.paper_size = paper_size
+        self.validity = validity  # in days
+        self.kind = kind
+        self.creation_date = datetime.now()
+        self.last_modified_date = self.creation_date
+        self.creator = creator
+
+    def share(self, recipient):
+        print(f"Document shared with {recipient}.")

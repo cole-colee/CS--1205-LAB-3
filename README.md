@@ -57,7 +57,7 @@ Program Execution (in main function):
 - Creates document objects with various details.
 - For each document:
   - Calls create_new() to simulate creation.
-  - Adds 5 letters using add_text_count().
+  - Adds 3 letters using add_text_count().
   - Saves and prints the document.
   - Displays full details using document_status().
 

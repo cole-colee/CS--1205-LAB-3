@@ -14,7 +14,7 @@ class Document(ABC):
 
     def add_text_count(self):
         self._text_count += 5
-        print(f"The document \"{self._name}\" created by {self._author} was added 3 letters, total: {self._text_count} letters.")
+        print(f"The document \"{self._name}\" created by {self._author} was added 5 letters, total: {self._text_count} letters.")
 
     @abstractmethod
     def create_new(self):

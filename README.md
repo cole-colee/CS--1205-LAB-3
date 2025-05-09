@@ -41,7 +41,8 @@ This Document Management System simulates how digital files are created, managed
    
 ## ⚙️ How the Program Works
 
-UML DIAGRAM HERE 
+# UML
+![class diagram](https://www.messenger.com/messenger_media/?attachment_id=9693614007426266&message_id=mid.%24gACIbP4iYX0ic5omqHWWtURbODvnD&thread_id=9600108896739144)
 
 
 ```bash

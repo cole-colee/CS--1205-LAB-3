@@ -50,7 +50,7 @@ This Document Management System simulates how digital files are created, managed
 ## ⚙️ Check How the Program Works!
 
 ## Project Diagram
-![Diagram](out/mediafile/![image](https://github.com/user-attachments/assets/5e565aca-204a-48a0-a86c-774c03b7e6c7)
+![image](https://github.com/user-attachments/assets/5e565aca-204a-48a0-a86c-774c03b7e6c7)
 
 ```python
 

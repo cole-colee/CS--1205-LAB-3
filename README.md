@@ -77,6 +77,5 @@ We give our utmost gratitude to our instructor for helping us understand the bas
 
 ---
 ## 💡 Final Reminders
-> We believe in 🤗 collaboration and constant improvement. If you have feedback, ideas, or want to contribute, you're more than welcome💖!
-
-> I hope you find this project useful, inspiring, and easy to explore!
+We believe in 🤗 collaboration and constant improvement. If you have feedback, ideas, or want to contribute, you're more than welcome💖!
+I hope you find this project useful, inspiring, and easy to explore!

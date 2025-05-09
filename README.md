@@ -49,8 +49,12 @@ This Document Management System simulates how digital files are created, managed
 
 ## ⚙️ Check How the Program Works!
 
-## Project Diagram
+### UML DIAGRAM 📈
 ![image](https://github.com/user-attachments/assets/5e565aca-204a-48a0-a86c-774c03b7e6c7)
+
+──────────────────────────────────────────୨ৎ────────────────────────────────────────────
+
+### CODE SAMPLES 😃
 
 ```python
 
@@ -125,7 +129,11 @@ Printed: Yes
 
 ──────────────────────────────────────────୨ৎ────────────────────────────────────────────
 
-## 🙏 Acknowledgement
-We give our utmost gratitude to our instructor for helping us understand the basics of object-oriented programming, this project wouldn’t have come together without that guidance. We’re also really grateful to each team member for putting in the effort, staying involved, and working well together. This project would not have been possible without everyone's teamwork.
+## 🌟 A Heartfelt Acknowledgment 🌟
+
+We extend our utmost gratitude to our amazing instructor, Ms. Fatima Marie Agdon, MSCS, for guiding us through the basics of object-oriented programming! 🙌✨ This project wouldn’t have come together without that invaluable support and shared wisdom.
+
+A huge shoutout to each of our fantastic team members! 💪💖 Your dedication, involvement, and teamwork have made this project more fun. Together, we have overcome challenges and celebrated victories! 🎉🌈
+Until Next Time Again! 😘
 
 𐔌 ﹒ ⋆ ꩜ ⋆ 𓂃 ₊ ⊹𐔌 ﹒ ⋆ ꩜ ⋆ 𓂃 ₊ ⊹𐔌 ﹒ ⋆ ꩜ ⋆ 𓂃 ₊ ⊹𐔌 ﹒ ⋆ ꩜ ⋆ 𓂃 ₊ ⊹𐔌 ﹒ ⋆ ꩜ ⋆ 𓂃 ₊ ⊹𐔌 ﹒ ⋆ ꩜ ⋆ 𓂃 ₊ ⊹𐔌 ﹒ ⋆ ꩜ ⋆ 𓂃 ₊ ⊹𐔌 ﹒ ⋆ ꩜ ⋆ 𓂃 ₊ ⊹𐔌 ﹒ ⋆ ꩜ 

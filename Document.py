@@ -38,7 +38,13 @@ class Document(ABC):
                 f"Printed: {'Yes' if self._printed else 'No'}")
 
 
-class DocumentType(Document):
+class Doc(Document):
+    def __init__(self, name, paper_size, author, margin=None):
+        super().__init__(name, paper_size, author, margin, initial_text_count=240)
+
+    def create_new(self):
+        print(f"{self._author} created \"{self._name}\" (.doc).")
+
     def save(self):
         self._saved = True
         print(f"{self._author} saved \"{self._name} document.\"")
@@ -48,36 +54,52 @@ class DocumentType(Document):
         print(f"{self._author} printed \"{self._name} document.\"")
 
 
-class Doc(DocumentType):
-    def __init__(self, name, paper_size, author, margin=None):
-        super().__init__(name, paper_size, author, margin, initial_text_count=240)
-
-    def create_new(self):
-        print(f"{self._author} created \"{self._name}\" (.doc).")
-
-
-class Pdf(DocumentType):
+class Pdf(Document):
     def __init__(self, name, paper_size, author, margin=None):
         super().__init__(name, paper_size, author, margin, initial_text_count=44)
 
     def create_new(self):
         print(f"{self._author} created \"{self._name}\" (.pdf).")
 
+    def save(self):
+        self._saved = True
+        print(f"{self._author} saved \"{self._name} document.\"")
 
-class Txt(DocumentType):
+    def print_document(self):
+        self._printed = True
+        print(f"{self._author} printed \"{self._name} document.\"")
+
+
+class Txt(Document):
     def __init__(self, name, paper_size, author):
         super().__init__(name, paper_size, author, None, initial_text_count=36)
 
     def create_new(self):
         print(f"{self._author} created \"{self._name}\" (.txt).")
 
+    def save(self):
+        self._saved = True
+        print(f"{self._author} saved \"{self._name} document.\"")
 
-class Xls(DocumentType):
+    def print_document(self):
+        self._printed = True
+        print(f"{self._author} printed \"{self._name} document.\"")
+
+
+class Xls(Document):
     def __init__(self, name, paper_size, author):
         super().__init__(name, paper_size, author, None, initial_text_count=317)
 
     def create_new(self):
         print(f"{self._author} created \"{self._name}\" (.xls).")
+
+    def save(self):
+        self._saved = True
+        print(f"{self._author} saved \"{self._name} document.\"")
+
+    def print_document(self):
+        self._printed = True
+        print(f"{self._author} printed \"{self._name} document.\"")
 
 
 def main():

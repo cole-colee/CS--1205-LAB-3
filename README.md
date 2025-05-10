@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<h3> ### CS--1205-LAB-3 </h3>
+<h3> CS--1205-LAB-3 </h3>
 <h2> 📝 Document Management System 📝 </h2>
 <h3> 🎉 Welcome to Our Document Handling Adventure! 🚀 </h3>
 
